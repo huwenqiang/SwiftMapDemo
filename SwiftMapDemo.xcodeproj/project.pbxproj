@@ -86,12 +86,6 @@
 		E0BD4C231B6097340001AA77 = {
 			isa = PBXGroup;
 			children = (
-				E0BD4C641B6099700001AA77 /* Security.framework */,
-				E0BD4C621B6099680001AA77 /* CoreGraphics.framework */,
-				E0BD4C601B6099610001AA77 /* SystemConfiguration.framework */,
-				E0BD4C5E1B6099580001AA77 /* OpenGLES.framework */,
-				E0BD4C5C1B60994C0001AA77 /* QuartzCore.framework */,
-				E0BD4C5A1B6099440001AA77 /* CoreLocation.framework */,
 				E0BD4C2E1B6097340001AA77 /* SwiftMapDemo */,
 				E0BD4C441B6097340001AA77 /* SwiftMapDemoTests */,
 				E0BD4C2D1B6097340001AA77 /* Products */,
@@ -150,6 +144,12 @@
 		E0BD4C511B6097650001AA77 /* Frame */ = {
 			isa = PBXGroup;
 			children = (
+				E0BD4C641B6099700001AA77 /* Security.framework */,
+				E0BD4C621B6099680001AA77 /* CoreGraphics.framework */,
+				E0BD4C601B6099610001AA77 /* SystemConfiguration.framework */,
+				E0BD4C5E1B6099580001AA77 /* OpenGLES.framework */,
+				E0BD4C5C1B60994C0001AA77 /* QuartzCore.framework */,
+				E0BD4C5A1B6099440001AA77 /* CoreLocation.framework */,
 				E0BD4C571B6099090001AA77 /* BaiduMapAPI.framework */,
 			);
 			path = Frame;
@@ -480,6 +480,7 @@
 				E0BD4C4D1B6097340001AA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E0BD4C4E1B6097340001AA77 /* Build configuration list for PBXNativeTarget "SwiftMapDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -488,6 +489,7 @@
 				E0BD4C501B6097340001AA77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
